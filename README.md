@@ -4,12 +4,24 @@
 
 I'll post updates here **daily** as I sift through the data...
 
+**Checklist:**
+* Summarise and understand the data
+* Clean up the data
+* Do some one and two dimensional exploratory analysis
+* Do multidimensional analysis
+* Try utilise some prediction methods such as regression
 
-<br>
-<br>
-<br>
-<br>
-<br>
+**Progression:**
+* **Day 1:** Just looked at the data, tried understanding the data a bit more.
+* **Day 2:** ...
+* **Day 3:** ...
+* **Day 4:** ...
+* **Day 5:** ...
+* **Day 6:** ...
+* **Day 7:** ...
+
+------
+Link to website: https://www.ucdp.uu.se/downloads/
 
 **Thanks to:**
 
