@@ -1,0 +1,157 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1671\cocoasubrtf500
+{\fonttbl\f0\fmodern\fcharset0 Courier-Bold;\f1\fmodern\fcharset0 Courier;\f2\froman\fcharset0 Times-Roman;
+}
+{\colortbl;\red255\green255\blue255;\red255\green255\blue255;\red0\green0\blue0;\red255\green255\blue51;
+}
+{\*\expandedcolortbl;;\cssrgb\c100000\c100000\c100000;\cssrgb\c0\c0\c0;\cssrgb\c99946\c98636\c25320;
+}
+\paperw11900\paperh16840\margl1440\margr1440\vieww28600\viewh15360\viewkind0
+\deftab720
+\pard\pardeftab720\partightenfactor0
+
+\f0\b\fs28 \cf0 \cb2 \expnd0\expndtw0\kerning0
+'year' :
+\f1\b0  year records are taken\
+
+\f0\b 'active_year' :
+\f1\b0  1 = active conflict, 0 = no conflict\
+
+\f0\b 'type_of_violence' :
+\f1\b0  \cf3 1 = state-based conflict, 2 = non-state conflict, 3 = one-sided violence
+\f2  
+\fs24 \cb1 \
+
+\f0\b\fs28 \cf0 \cb2 'conflict_new_id\'92 :
+\f1\b0  \cf3 A unique conflict identification code for each individual conflict
+\f2\fs29\fsmilli14667 \cb1  
+\fs24 \
+
+\f0\b\fs28 \cf0 \cb2 'conflict_name' :
+\f1\b0  \cf3 Name of the UCDP conflict to which the event belongs. 
+\f2\fs24 \cb1 \
+
+\f0\b\fs28 \cf0 \cb2 'dyad_new_id' :
+\f1\b0  \cf3 A unique conflict identification code for each individual dyad in the dataset. 
+\f2\fs24 \cb1 \
+
+\f0\b\fs28 \cf0 \cb2 'dyad_name' :
+\f1\b0  \cf3 Name of the conflict dyad creating the event.  A dyad is the pair of two actors engaged in violence (in the case of one-sided violence, the perpetrator of violence and civilians).
+\f2\fs29\fsmilli14667 \cb1  
+\fs24 \
+
+\f0\b\fs28 \cf0 \cb2 'side_a_new_id' :
+\f1\b0  unique ID of side A, this ID is no longer the Gleditsch and Ward number for State actors/sides.\
+
+\f0\b 'gwnoa' :
+\f1\b0  the Gleditsch and Ward number for Side A if the side is a state. Empty if Side A is not a state.\
+
+\f0\b \'91side_a' :
+\f1\b0  name of Side A in the dyad. In state-based conflicts always a government. In one-sided violence always the perpetrating party.\
+
+\f0\b 'side_b_new_id\'92 :
+\f1\b0  unique ID of side B, this ID is no longer the Gleditsch and Ward number for State actors/sides.\
+
+\f0\b 'gwnob' :
+\f1\b0  the Gleditsch and Ward number for Side B if the side is a state. Empty if Side B is not a state.\
+
+\f0\b 'side_b\'92 :
+\f1\b0  name of Side B in the dyad. In state-based always the rebel movement or rivalling government. In one-sided violence always \'93civilians\'94.\
+
+\f0\b 'number_of_sources' :
+\f1\b0  \cf3 Number of total sources containing information for an event that were consulted. Variable is only available for data collected since 2013 and for recently revised events. For older data, -1. Note that -1 does not mean information on the source is missing.\cf0 \
+
+\f0\b 'source_article' :
+\f1\b0  \cf3 References to the names, dates and titles of the source text material from which information on the event is gathered. R = Reuters News, BBC = BBC Monitoring, AP = Associated Press Newswires,  AFP = Agence France Presse, X = Xinhua, DOW = Dow Jones Wires 
+\f2\fs24 \cb1 \
+
+\f0\b\fs28 \cf0 \cb2 'source_office' :
+\f1\b0  \cf3 The name of the organizations publishing the source materials. For older data, the field is empty. Note that an empty field does not mean information on the source is missing; reference to the source material is always available in the source_article field, for every event.\cf0 \
+
+\f0\b 'source_date' : 
+\f1\b0 \cf3 Dates the source materials were published on. This variable is only available for data collected since 2013, and for recently revised events.
+\f2\fs29\fsmilli14667 \cb1  
+\fs24 \
+
+\f0\b\fs28 \cf0 \cb2 'source_headline' : 
+\f1\b0 \cf3 The titles of the source materials. Note that this variable is only available for data collected for 2013 and 2014, and for recently revised events.
+\f2  
+\f1 \cf0 \
+
+\f0\b 'source_original' : 
+\f1\b0 \cf3 The name or type of person or organization from which the information about the event originates in the original report.
+\f2\fs24 \cb1 \
+
+\f0\b\fs28 \cf0 \cb2 'where_prec' :
+\f1\b0  \cf3 Precision with which the coordinates and location assigned to the event reflects the location of the actual event. 1 = exact location of the event known and coded, 2 = event occurred within at maximum a ca. 25 km radius around a known point. The coded point is the known point, 3 = only the second order administrative division where an event happened is known. That administrative division is coded with a point representing it (typically the centroid), 4 = only the first order administrative division where an event happened is known. That administrative division is coded with a point representing it (typically the centroid), 5 = the only spatial reference for the event is neither a known point nor a known formal administrative division, but rather a linear feature (e.g. a long river, a border, a longer road or the line connecting two locations further afield than 25 km) or a fuzzy polygon without defined borders (informal regions, large radiuses etc.). A representation point is chosen for the feature and employed, 6 = only the country where the event took place in is known, 7 = event in international waters or airspace. 
+\f2\fs24 \cb1 \
+
+\f0\b\fs28 \cf0 \cb2 'where_coordinates' :
+\f1\b0  \cf3 Name of the location to which the event is assigned.\cf0 \
+
+\f0\b 'adm_1' :
+\f1\b0  \cf3 Name of the first order (largest) administrative division where the event took place.\cf0 \
+
+\f0\b 'adm_2' :
+\f1\b0  \cf3 Name of the second order administrative division where the event took place.
+\f2\fs24 \cb1 \
+
+\f0\b\fs28 \cf0 \cb2 'latitude' :
+\f1\b0  \cf3 Latitude (in decimal degrees) \cf0 \
+
+\f0\b 'longitude' : 
+\f1\b0 \cf3 Longitude (in decimal degrees) \cf0 \
+
+\f0\b \'92geom_wkt' :
+\f1\b0  \cf3 Open Geospatial Consortium textual representation of the location of each individual point. Formatted as OGC WKT \cf0 \
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardeftab720\pardirnatural\partightenfactor0
+
+\f0\b \cf0 \cb4 \kerning1\expnd0\expndtw0 'priogrid_gid'
+\f1\b0  
+\f0\b :
+\f1\b0  \cf3 The PRIO-grid cell id (gid) in which the event took place. Compatibility with PRIO-grid (Tollefsen, 2012) is guaranteed for both PRIO-grid 1 and 2. {\field{\*\fldinst{HYPERLINK "https://files.prio.org/ReplicationData/PRIO-GRID/PRIO-GRID_codebook_v1_01.pdf"}}{\fldrslt https://files.prio.org/ReplicationData/PRIO-GRID/PRIO-GRID_codebook_v1_01.pdf}}
+\fs24 \cf0 \
+\pard\pardeftab720\partightenfactor0
+
+\f0\b\fs28 \cf0 \cb2 \expnd0\expndtw0\kerning0
+'country' :
+\f1\b0  \cf3 Country in which the event takes place. \cf0 \
+
+\f0\b 'country_id' :
+\f1\b0  \cf3 Gleditsch and Ward number of the country in which the event takes place. \cf0 \
+
+\f0\b 'region' :
+\f1\b0  \cf3 Region where the event took place.\cf0 \
+
+\f0\b 'event_clarity\'92 :
+\f1\b0  \cf3 1 = (high) for events where the reporting allows the coder to identify the event in full. 2 = (lower) for events where an aggregation of information was already made by the source material that is impossible to undo in the coding process. \
+
+\f0\b \cf0 'date_prec' :
+\f1\b0  \cf3 How precise the information is about the date of an event. 1 = exact date of event is known, 2 = the date of the event is known only within a 2-6 day range, 3 = only the week of the event is known, 4 = the date of the event is known only within an 8-30 day range or only the month when the event has taken place is known, 5 = the date of the event is known only within a range longer than one month but not more than one calendar year. 
+\f2\fs24 \cb1 \
+
+\f0\b\fs28 \cf0 \cb2 'date_start' : 
+\f1\b0 Note this column is in string format rather than datetime. E\cf3 arliest possible date when the event has taken place. \cf0 \
+
+\f0\b 'date_end' : 
+\f1\b0 Note this column is in string format rather than datetime. \cf3 The last possible date when the event has taken place. \cf0 \
+
+\f0\b 'deaths_a' : 
+\f1\b0 \cf3 The best estimate of deaths sustained by side a. Always 0 for one-sided violence events. \cf0 \
+
+\f0\b 'deaths_b' : 
+\f1\b0 \cf3 The best estimate of deaths sustained by side b. Always 0 for one-sided violence events. \cf0 \
+
+\f0\b \'92deaths_civilians' : 
+\f1\b0 \cf3 The best estimate of dead civilians in the event. 
+\f0\b \cf0 \
+'deaths_unknown' : 
+\f1\b0 \cf3 The best estimate of deaths of persons of unknown status. 
+\f0\b \cf0 \
+'low' : 
+\f1\b0 \cf3 The lowest reliable estimate of total fatalities 
+\f0\b \cf0 \
+\'92best' : 
+\f1\b0 \cf3 The best (most likely) estimate of total fatalities resulting from an event. It is always the sum of deaths_a, deaths_b, deaths_civilians and deaths_unknown. 
+\f0\b \cf0 \
+\'92high' : 
+\f1\b0 \cf3 The highest reliable estimate of total fatalities.}
